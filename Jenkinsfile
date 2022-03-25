@@ -5,9 +5,9 @@ agent {label 'docker'}
       steps {
         sh '''
         sed -i  's/X/Y/g' index.html
-        sed -i  's/ONE/FOUR/g' index.html
-        sed -i 's/TWO/FIVE/g' index.html
-        sed -i 's/THREE/SIX/g' index.html
+        sed -i  's/one/FOUR/g' index.html
+        sed -i 's/two/FIVE/g' index.html
+        sed -i 's/three/SIX/g' index.html
         '''
             }
                      }
